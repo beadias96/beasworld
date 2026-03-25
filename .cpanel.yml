@@ -1,5 +1,4 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/beatfyap/public_html
-    - /bin/cp -R /home/beatfyap/public_html/beasworld_repo/* $DEPLOYPATH
+    - /bin/cp -R /home/beatfyap/public_html/beasworld_repo/* /home/beatfyap/public_html/
